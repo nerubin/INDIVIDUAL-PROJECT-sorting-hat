@@ -1,0 +1,119 @@
+
+#app {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 10px;
+}
+
+/*sort btn*/
+#form-submit {
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  background-color: #80471C;
+  color: #231709;
+  font-family: cursive;
+  font-weight: bold;
+}
+
+/*container for HOUSE btns*/
+.container {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+
+}
+/* House btns */
+#all-houses-btn {
+  color: #b8a28e;
+  background-color: #200910;
+  border-color: #7e1e1e;
+  padding: 10px 30px;
+  font-weight: bold;
+  font-family: cursive;
+}
+#gryf-btn {
+  color: #FFC500;
+  background-color: #7F0909;
+  border-color: #000000;
+  padding: 10px 30px;
+  font-weight: bold;
+  font-family: cursive;
+}
+#huffpuff-btn {
+  color: #372E29;
+  background-color: #ECB939;
+  border-color: #726255;
+  padding: 10px 30px;
+  font-weight: bold;
+  font-family: cursive;
+}
+#ravenclaw-btn {
+  color: #946b2d;
+  background-color: #222f5b;
+  border-color: #5D5D5D;
+  padding: 10px 30px;
+  font-weight: bold;
+  font-family: cursive;
+}
+#slytherin-btn {
+  color: #AAAAAA;
+  background-color: #1A472A;
+  border-color: #5D5D5D;
+  padding: 10px 30px;
+  font-weight: bold;
+  font-family: cursive;
+}
+
+/* death eater*/
+
+.dark-card {
+  background-color: #000000;
+  color: #2a623d;
+  font-family: fantasy;
+  text-align: center;
+}
+.death-eater-name {
+  color: #1A472A;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+}
+.death-eater-text {
+  color: #1A472A;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+}
+
+/* cards */
+
+.card.gryffindor {
+  background-color: #7F0909; 
+  color: #FFC500; 
+  text-align: center;
+  font-family: cursive;
+}
+
+.card.slytherin {
+  background-color: #1A472A; 
+  color: #AAAAAA; 
+  text-align: center;
+  font-family: cursive;
+}
+
+.card.hufflepuff {
+  background-color: #ECB939; 
+  color: #372E29; 
+  text-align: center;
+  font-family: cursive;
+}
+
+.card.ravenclaw {
+  background-color: #222f5b; 
+  color: #946b2d; 
+  text-align: center;
+  font-family: cursive;
+}
+

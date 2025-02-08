@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Sorting Hat 2.0</title>
+  <link rel="stylesheet" href="main.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+<!--intro-->
+  <center><div id="intro">
+    <h3>Welcome to Hogwarts School of Witchcraft and Wizardry!</h3>
+      <class="text-muted">We are pleased to inform you that you have been accepted at Hogwarts School of Witchcraft and Wizardry. Please find enclosed a list of all necessary books and equipment. Term begins on 1 September. We await your owl by no later than 31 July.</class=>
+  </center> </div>
+  <!--Form for student name-->
+  <div class="form-group" id="first-yr-form">
+    <center><h5>Enter First Year's Name</h5></center>
+    <form id = "studentForm">
+      <div class="form-floating mb-3">
+        <input type="text" class="form-control" id="name" placeholder="Name" required>
+        <label for="floatingInput">Name</label>
+      </div>
+      <button type="submit" class="btn btn-primary" id="form-submit">Sort</button>
+  </form>
+  </div>
+  <!--Card-->
+  <div class="card">
+    <div class="card-body" id="filter-body">
+      <center><h5 class="card-title">Filter Students</h5></center>
+      <p class="card-text"></p>
+      <!--buttons-->
+      <div class="container">
+      <div class="all-btn1">
+      <a href="#" class="btn btn-primary" id="all-houses-btn">All</a>
+      </div>
+      <div class="gryf-btn1">
+      <a href="#" class="btn btn-primary" id="gryf-btn">Gryffindor</a>
+      </div>
+      <div class="huff-btn1">
+      <a href="#" class="btn btn-primary" id="huffpuff-btn">Hufflepuff</a>
+      </div>
+      <div class="rave-btn1">
+      <a href="#" class="btn btn-primary" id="ravenclaw-btn">Ravenclaw</a>
+      </div>
+      <div class="slyth-btn1">
+      <a href="#" class="btn btn-primary" id="slytherin-btn">Slytherin</a>
+    </div>
+    </div>
+    </div>
+  </div>
+  <!--card with house info-->
+<div id="app"></div>
+<div id="deathEaterSquad"></div>
+<!--bootstrap-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <script src="main.js"></script>
+</body>
+</html>
